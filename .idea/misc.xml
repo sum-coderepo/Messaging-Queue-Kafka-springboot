@@ -5,6 +5,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/springboot-kafka-tutorial/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-kafka-course/springboot-kafka-tutorial/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-kafka-course/springboot-kafka-real-world-project/pom.xml" />
       </list>
     </option>
   </component>

@@ -6,13 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-kafka-tutorial" />
+        <module name="springboot-kafka-tutorial (1) (net.javaguides)" />
+        <module name="springboot-kafka-tutorial (2) (com.springkafka)" />
+        <module name="kafka-consumer-database" />
+        <module name="kafka-producer-wikimedia" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-kafka-tutorial" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="kafka-consumer-database" options="-parameters" />
+      <module name="kafka-producer-wikimedia" options="-parameters" />
       <module name="springboot-kafka-tutorial" options="-parameters" />
+      <module name="springboot-kafka-tutorial (1) (net.javaguides)" options="-parameters" />
+      <module name="springboot-kafka-tutorial (2) (com.springkafka)" options="-parameters" />
     </option>
   </component>
 </project>
